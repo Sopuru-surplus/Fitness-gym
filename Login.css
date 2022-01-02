@@ -1,0 +1,92 @@
+
+
+.dropdown-menu{
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 200px;
+    border: none;
+    border-radius: 0px;
+}
+
+.dropdown-item{
+    color: white;
+    width: 200px;
+    margin: 0px 10px 0px 10px;
+}
+
+.dropdown-item:active{
+    background-color: #ffc107;
+}
+
+body{
+    background-image: url('../bootstrap/images/supplement_protein_powder_copyy.jpg');
+    background-size: contain;
+    
+}
+
+.container{
+    width: 60%;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    height: 100vh;
+    padding: 0px 100px 0px 100px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 25vh;
+    border-bottom: 4px solid gold;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0px;
+    background: transparent;
+    padding: 5px;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    margin: auto;
+    width: 80%;
+    border-radius: 16px;
+    padding: 10px;
+    margin-left: 35%;
+}
+
+@media (max-width: 768px){
+    .dropdown-menu{
+        margin-right: 450px;
+        margin-left: 0px;
+        border: none;
+    }
+}
+@media (max-width: 850px){
+    .container{
+        width: 100%;
+        margin-top: 50px;
+        background-color: whitesmoke;
+        height: 100vh;
+        padding: 0px 100px 0px 100px;
+    }
+    
+    .btn{
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 980px){
+    .btn{
+        margin-left: 0px;
+        width: 100%;
+    }
+}
