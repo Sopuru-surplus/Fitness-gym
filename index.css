@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .bold-content{
     min-height: 100vh;
@@ -49,9 +54,14 @@ img{
 }
 
 .section-two{
-   background-color: #AAA939; 
+   color: #AAA939; 
    margin: 0px;
-   height: 500px;
+   height: 300px;
+   background: rgb(75, 73, 73);
+}
+
+.secimg{
+    height: 200px;
 }
 
 .welcome-note{
@@ -102,6 +112,7 @@ footer{
     padding: 20px;
     color: white;
     font-weight: bolder;
+    margin: 0px;
 }
 
 .foot-item{
@@ -128,7 +139,7 @@ a{
     color: #ffc107;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .dropdown-menu{
         margin-right: 450px;
         margin-left: 0px;
@@ -136,8 +147,33 @@ a{
     }
    
     .section-one{
+        background-size: auto;
         background: none;
-        text-align: center;
+    }
+    
+    .welcome-note{
+        width: 100%;
+        float: left;
+    }
+
+    .carousel-item img{
+        height: 200px;
+    }
+
+    .carousel-control-prev{
+        height: 200px;
+    }
+
+    .carousel-control-next{
+        height: 200px;
+    }
+
+    .carousel{
+        height: 200px;
+    }
+
+    .carousel-indicators{
+        display: none;
     }
 }
 

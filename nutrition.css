@@ -65,11 +65,23 @@ footer :hover{
     color: cornsilk;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .dropdown-menu{
         margin-right: 450px;
         margin-left: 0px;
         border: none;
+    }
+
+    .heading{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 18px;
     }
 }
 

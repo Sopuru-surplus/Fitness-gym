@@ -76,11 +76,28 @@ video{
     text-align: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .dropdown-menu{
         margin-right: 450px;
         margin-left: 0px;
         border: none;
+    }
+
+    .front-img{
+        height: 300px;
+    }
+
+    .heading{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    video{
+        margin: 0px auto 0px auto;
+        width: 250px;
     }
 }
 
