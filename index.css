@@ -44,7 +44,7 @@ img{
 }
 
 .section-one{
-    background-image: url('../images/supplement_protein_powder_copy.jpg');
+    background-image: url('images/supplement_protein_powder_copy.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
